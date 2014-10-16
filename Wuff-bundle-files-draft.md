@@ -1,4 +1,8 @@
-# Wuff MANIFEST.MF and plugin.xml handling
+# Handling of MANIFEST.MF and plugin.xml in Wuff
+
+Intro: Wuff is a gradle plugin for developing and assembling OSGi/Eclipse applications. Sources are available at: https://github.com/akhikhl/wuff.
+
+This draft describes possible solution for actual problems with handling of MANIFEST.MF and plugin.xml in Wuff.
 
 All points are open for discussion and are subject to change.
 
