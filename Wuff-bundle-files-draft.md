@@ -2,6 +2,8 @@
 
 All points are open for discussion and are subject to change.
 
+Please contribute via pull requests, issue tracker or at the discussion group: https://groups.google.com/forum/?hl=en#!forum/wuff-dev
+
 ## Current implementation
 
 Currently Wuff processes MANIFEST.MF and plugin.xml (later called "bundle files") 
