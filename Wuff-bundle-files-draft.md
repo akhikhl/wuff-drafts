@@ -102,4 +102,16 @@ How this will apply to Wuff-driven projects:
 - Most new projects will use generation mode. This brings reduced maintenance on MANIFEST.MF and plugin.xml.
 - Some new projects will use merge mode, when wuff-generated bundle files are not sufficient.
 
+## Build cycle
+
+We must define how the described modes integrate into build cycle.
+
+"Static" mode does not require special build cycle. User maintains the bundle files and invokes "build" task when needed.
+
+"Merge" and "generation" modes require special build cycle. In particular, there should be point of time, when bundle files are merged or generated. The simplest variant would be: to introduce "generateBundleFiles" task, featuring:
+- "generateBundleFiles" task checks whether wuff.generateBundleFiles is set to true. If not, the task does nothing.
+- "build" task depends on "generateBundleFiles" task, so that builds are always done against "fresh" generated/merged files.
+- it will be possible to simply invoke "generateBundleFiles" from command line or in IDE.
+- in a future we might integrate "generateBundleFiles" task with IDE-specific gradle integration plugins, so that they invoke "generateBundleFiles" whenever its inputs change.
+
 Your suggestions and critique are welcome.
