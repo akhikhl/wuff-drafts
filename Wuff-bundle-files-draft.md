@@ -98,7 +98,7 @@ How generateBundleFiles works:
 
 How this will apply to Wuff-driven projects:
 
-- Legacy projects will use static mode, because they use their own MANIFEST.MF and plugin.xml files.
+- Legacy projects will use static mode, because they have their own MANIFEST.MF and plugin.xml files.
 - Most new projects will use generation mode. This brings reduced maintenance on MANIFEST.MF and plugin.xml.
 - Some new projects will use merge mode, when wuff-generated bundle files are not sufficient.
 
