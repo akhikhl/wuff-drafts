@@ -6,7 +6,7 @@ This draft describes possible solution for actual problems with handling of MANI
 
 All points are open for discussion and are subject to change.
 
-Please contribute via pull requests, issue tracker or at the discussion group: https://groups.google.com/forum/?hl=en#!forum/wuff-dev
+Please contribute via pull requests, issue tracker or at the mailing list: https://groups.google.com/forum/?hl=en#!forum/wuff-dev
 
 ## Current implementation
 
