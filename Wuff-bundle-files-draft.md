@@ -76,9 +76,9 @@ some-bundle
 
 Similarities and differences between modes:
 
-- "static" and "generation" modes has the same file layout, but different handling of root bundle files.
+- "static" and "generation" modes have the same file layout, but different handling of root bundle files.
 
-- "merge" and "generation" modes has different file layouts, but same handling of root bundle files.
+- "merge" and "generation" modes have different file layouts, but same handling of root bundle files.
 
 It appears that all three modes can be controlled with single property:
 
